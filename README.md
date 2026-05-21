@@ -1,3 +1,6 @@
+
+This was the first program I wrote in Rust...  I love this language and I intend on writing more in it.... 
+
 Overview
 This is a MySQL database copier application that efficiently transfers data between MySQL databases with proper dependency handling and progress tracking.
 
