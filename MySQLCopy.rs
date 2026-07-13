@@ -1,3 +1,14 @@
+// Patrick Burdett -- 04/16/2025
+// Used during Migration from local to Azure and AWS.
+// Follows constraints and FK's for correct insertion order.
+// My first rust app, if you find issues please let know.
+// Have fun!
+// This could be modified to use any ansi standard relational databaae that
+// honors INFORMATION_SCHEMA with very minimal changes.
+//
+// Perhaps if there is a need I can decouple  connections and create a nice OO
+// that allows simple plug ins.
+
 
 use mysql::*;
 use mysql::prelude::*;
